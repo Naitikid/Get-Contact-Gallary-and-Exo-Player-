@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/contactsBtn"
+            android:layout_width="@dimen/dimens_0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dimens_30dp"
+            android:layout_marginEnd="@dimen/dimens_30dp"
+            android:text="@string/contacts"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/gallaryBtn"
+            android:layout_width="@dimen/dimens_0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/gallary_application"
+            app:layout_constraintEnd_toEndOf="@id/contactsBtn"
+            app:layout_constraintStart_toStartOf="@id/contactsBtn"
+            app:layout_constraintTop_toBottomOf="@+id/contactsBtn" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/simplevideoBtn"
+            android:layout_width="@dimen/dimens_0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/simple_video_player"
+            app:layout_constraintEnd_toEndOf="@id/gallaryBtn"
+            app:layout_constraintStart_toStartOf="@id/gallaryBtn"
+            app:layout_constraintTop_toBottomOf="@id/gallaryBtn" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/exoplayerBtn"
+            android:layout_width="@dimen/dimens_0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/exoplayer"
+            app:layout_constraintEnd_toEndOf="@id/simplevideoBtn"
+            app:layout_constraintStart_toStartOf="@id/simplevideoBtn"
+            app:layout_constraintTop_toBottomOf="@id/simplevideoBtn" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/testcheck"
+            android:layout_width="@dimen/dimens_0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/test"
+            app:layout_constraintEnd_toEndOf="@id/exoplayerBtn"
+            app:layout_constraintStart_toStartOf="@id/exoplayerBtn"
+            app:layout_constraintTop_toBottomOf="@id/exoplayerBtn" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

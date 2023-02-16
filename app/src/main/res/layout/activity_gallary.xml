@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".forgallary.GallaryActivity">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rcvgallary"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:itemCount="8"
+           android:layout_marginStart="@dimen/dimens_5dp"
+            android:layout_marginTop="@dimen/dimens_5dp"
+            android:contentDescription="@string/for_the_use_of_gallary_view"
+            tools:listitem="@layout/item_gallary" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

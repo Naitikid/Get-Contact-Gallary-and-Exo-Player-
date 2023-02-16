@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Contact Number and Gallary Viewer</string>
+    <string name="contacts">Contacts</string>
+    <string name="gallary_application">Gallary Application</string>
+    <string name="alreadypermission">Already permission</string>
+    <string name="camerapermissiongranted">Contact permission granted</string>
+    <string name="Contact">"Contact "</string>
+    <string name="gotosetting">Go To Setting</string>
+    <string name="cameraPermissionDenied">Contact Permission Denied</string>
+    <string name="gallaryPermissionGranted">gallary Permission Granted</string>
+    <string name="gallary">Gallary Permission</string>
+    <string name="gallaryPermissionDenied">Gallary Permission Denied</string>
+    <string name="name">Name</string>
+    <string name="number">Number</string>
+    <string name="for_the_use_of_gallary_view">for the use of gallary view</string>
+    <string name="simple_video_player">Simple Video Player</string>
+    <string name="title_activity_exo_player">ExoPlayerActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="exoplayer">ExoPlayer</string>
+    <string name="test">test</string>
+    <string name="image_side_show">Start</string>
+</resources>
